@@ -1,12 +1,14 @@
 def mostrar_menu_principal():
     """Muestra el menú principal de la calculadora."""
+    from modules.utils import clear_screen
+    clear_screen()
     print("\n===== CALCULADORA MATEMÁTICA =====")
     print("1. Cálculo de áreas")
     print("2. Cálculo de superficies")
     print("3. Análisis numérico")
     print("4. Salir")
 
-    return input("Seleccione una opción (1-5): ")
+    return input("Seleccione una opción (1-4): ")
 
 def main():
     """Función principal del programa."""
@@ -16,12 +18,12 @@ def main():
             from areas.menu import menu_areas
             menu_areas()
         elif opcion == "2":
-            print("Módulo de superficies aún no implementado")
+            from superficies import menu_perimetros
+            menu_perimetros()
         elif opcion == "3":
-            print("Módulo de análisis numérico aún no implementado")
+            from analisisNumerico import menuAnalisis
+            menuAnalisis()
         elif opcion == "4":
-            print("Esta funcionalidad está pendiente de implementar")
-        elif opcion == "5":
             print("¡Gracias por usar la calculadora matemática!")
             break
         else:

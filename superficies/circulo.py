@@ -1,7 +1,7 @@
-# from utils import clear_screen
+from modules.utils import clear_screen
 
 def perimetro_circulo(radio):
-    # clear_screen()
+    clear_screen()
     print("CALCULAR PERIMETRO DE UN CIRCULO (P = 2πr)")
     print("-" * 50)
     radio = float(input("\nIngrese el valor del radio: "))

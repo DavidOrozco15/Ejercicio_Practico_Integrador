@@ -15,6 +15,8 @@ def mostrar_menu_areas():
 
 def menu_areas():
     """Función para manejar el menú de áreas."""
+    from modules.utils import clear_screen
+    clear_screen()
     while True:
         opcion = mostrar_menu_areas()
         if opcion == "1":

@@ -1,7 +1,8 @@
-# from utils import clear_screen
+from modules.utils import clear_screen
+
 
 def perimetro_poligono(n, lados):
-    # clear_screen()
+    clear_screen()
     print("CALCULAR EL PERIMETRO DE UN POLÍGONO REGULAR (P = n x L)")
     print("-" * 50)
     n = int(input("\nIngrese el número de lados que tiene el polígono: "))
