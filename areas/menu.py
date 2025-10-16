@@ -3,8 +3,8 @@ from .triangulo import area_triangulo
 from .poligono import area_poligono
 from .circulo import area_circulo
 
-def mostrar_submenu_areas():
-    """Muestra el submenú de cálculo de áreas."""
+def mostrar_menu_areas():
+    """Muestra el menú de cálculo de áreas."""
     print("\n===== CÁLCULO DE ÁREAS =====")
     print("1. Área de un cuadrado")
     print("2. Área de un triángulo")
@@ -13,10 +13,10 @@ def mostrar_submenu_areas():
     print("5. Volver al menú principal")
     return input("Seleccione una opción (1-5): ")
 
-def submenu_areas():
-    """Función para manejar el submenú de áreas."""
+def menu_areas():
+    """Función para manejar el menú de áreas."""
     while True:
-        opcion = mostrar_submenu_areas()
+        opcion = mostrar_menu_areas()
         if opcion == "1":
             try:
                 lado = float(input("Ingrese el lado del cuadrado: "))

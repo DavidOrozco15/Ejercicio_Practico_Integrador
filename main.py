@@ -4,8 +4,8 @@ def mostrar_menu_principal():
     print("1. Cálculo de áreas")
     print("2. Cálculo de superficies")
     print("3. Análisis numérico")
-    print("4. [Pendiente de implementar]")
-    print("5. Salir")
+    print("4. Salir")
+
     return input("Seleccione una opción (1-5): ")
 
 def main():
@@ -13,7 +13,8 @@ def main():
     while True:
         opcion = mostrar_menu_principal()
         if opcion == "1":
-            print("Módulo de áreas aún no implementado")
+            from areas.menu import menu_areas
+            menu_areas()
         elif opcion == "2":
             print("Módulo de superficies aún no implementado")
         elif opcion == "3":
