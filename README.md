@@ -45,6 +45,7 @@ Ejercicio_Practico_Integrador/
 │   │
 ├── modules/                        # Módulos adicionales con funcionalidades auxiliares
 
+
 │   └── utils.py                    # Funciones utilitarias (por ejemplo, para cálculos comunes)
 
 │
