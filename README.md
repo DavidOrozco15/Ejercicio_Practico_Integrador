@@ -42,6 +42,7 @@ Ejercicio_Practico_Integrador/
 │   │   ├── poligono.py             # Función para calcular el área de un polígono
 
 │   │   └── triangulo.py            # Función para calcular el área de un triángulo
+
 │   │
 ├── modules/                        # Módulos adicionales con funcionalidades auxiliares
 
