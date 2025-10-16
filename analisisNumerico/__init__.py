@@ -1,3 +1,4 @@
+from analisisNumerico.fibonacci import generarFibonacci
 def menuAnalisis():
     while True:
         print("---ANALISIS NUMERICO---")
@@ -12,7 +13,7 @@ def menuAnalisis():
             case 1:
                 pass
             case 2:
-                pass
+                generarFibonacci()
             case 3:
                 pass
             case 4:
