@@ -1,6 +1,6 @@
-#from utils import clear_screen
+from modules.utils import pausar, clear_screen
 def generarFibonacci():
-    #clear_screen()
+    clear_screen()
     print("Generador de los primeros 10 números de la serie de Fibonacci")
 
     a = 0
@@ -27,4 +27,5 @@ def generarFibonacci():
             a = b
             b = siguiente
 
+pausar()
 
