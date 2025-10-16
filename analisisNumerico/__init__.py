@@ -27,6 +27,6 @@ def menuAnalisis():
             case 5:
                 valorPi()
             case 0:
-                pass
+                break
             case _:
                 pass
