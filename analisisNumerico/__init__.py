@@ -3,7 +3,7 @@ from analisisNumerico.factorial import calcularFactorial
 from analisisNumerico.numeros_amigos import sonAmigos
 from analisisNumerico.numeros_perfectos import esPerfecto
 from analisisNumerico.pi import valorPi
-from modules.utils import pausar, clear_screen
+from modules.utils import  clear_screen
 
 def menuAnalisis():
     clear_screen()

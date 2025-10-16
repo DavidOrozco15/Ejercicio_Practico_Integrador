@@ -1,7 +1,8 @@
-# from utils import clear_screen
+from modules.utils import clear_screen
+
 
 def perimetro_triangulo(lado1, lado2, lado3):
-    # clear_screen()
+    clear_screen()
     print("CALCULAR EL PERIMETRO DE UN TRIANGULO (P = L1 + L2 + L3)")
     print("-" * 50)
     lado1 = float(input("Ingrese el valor del primer lado: "))

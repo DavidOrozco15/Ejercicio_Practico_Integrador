@@ -2,8 +2,10 @@ from superficies.cuadrado import perimetro_cuadrado
 from superficies.circulo import perimetro_circulo
 from superficies.poligono import perimetro_poligono
 from superficies.triangulo import perimetro_triangulo
+from modules.utils import pausar, clear_screen
 
 def menu_perimetros():
+    clear_screen()
     print("CALCULADORA DE PERIMETROS")
     print("-" * 50)
     print("\n1. Cuadrados")
@@ -17,18 +19,18 @@ def menu_perimetros():
         match opcion:
             case "1":
                 perimetro_cuadrado()
-                #pausar()
+                pausar()
             case "2":
                 perimetro_circulo()
-                #pausar()
+                pausar()
             case "3":
                 perimetro_poligono()
-                #pausar()
+                pausar()
             case "4":
                 perimetro_triangulo()
-                #pausar()
+                pausar()
             case "0":
                 break
             case _:
                 print("\nOpción no válida. Intente nuevamente.\n")
-                #pausar()
+                pausar()
