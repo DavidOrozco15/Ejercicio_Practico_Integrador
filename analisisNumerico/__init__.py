@@ -3,8 +3,10 @@ from analisisNumerico.factorial import calcularFactorial
 from analisisNumerico.numeros_amigos import sonAmigos
 from analisisNumerico.numeros_perfectos import esPerfecto
 from analisisNumerico.pi import valorPi
+from modules.utils import pausar, clear_screen
 
 def menuAnalisis():
+    clear_screen()
     while True:
         print("---ANALISIS NUMERICO---")
         print("\n1. Factorial")
@@ -29,4 +31,4 @@ def menuAnalisis():
             case 0:
                 break
             case _:
-                pass
+                print("opcion Invalida")
